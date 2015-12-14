@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProcMonDLL", "ProcMonDLL.vcxproj", "{6585277D-C5C4-4948-A885-90CA8E96FBD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		DLL|Win32 = DLL|Win32
+		DLL|x64 = DLL|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6585277D-C5C4-4948-A885-90CA8E96FBD7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6585277D-C5C4-4948-A885-90CA8E96FBD7}.Debug|Win32.Build.0 = Debug|Win32
+		{6585277D-C5C4-4948-A885-90CA8E96FBD7}.Debug|x64.ActiveCfg = Debug|x64
+		{6585277D-C5C4-4948-A885-90CA8E96FBD7}.Debug|x64.Build.0 = Debug|x64
+		{6585277D-C5C4-4948-A885-90CA8E96FBD7}.DLL|Win32.ActiveCfg = DLL|Win32
+		{6585277D-C5C4-4948-A885-90CA8E96FBD7}.DLL|Win32.Build.0 = DLL|Win32
+		{6585277D-C5C4-4948-A885-90CA8E96FBD7}.DLL|x64.ActiveCfg = DLL|x64
+		{6585277D-C5C4-4948-A885-90CA8E96FBD7}.DLL|x64.Build.0 = DLL|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

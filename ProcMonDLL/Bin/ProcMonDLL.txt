@@ -1,0 +1,14 @@
+Test monitor
+Hooker::Initialize Complete!!!
+Hooker::Enable(true)
+
+Hooker::Hook New process:
+"C:\Program Files\Unity\Editor\Data\Tools\PVRTexTool.exe" "-flip" "y" "-f" "ETC1" "-q" "etcfastperceptual" "-i" "Temp\44f243b4c20a1df48aad2713de0e126d-feed.png" "-o" "Temp\44f243b4c20a1df48aad2713de0e126d-res.pvr"
+
+QualitySettingRequest:OnProcess:Start
+Patching ETC ....
+"C:\Program Files\Unity\Editor\Data\Tools\PVRTexTool.exe" "-flip" "y" "-f" "ETC1" "-q" "etcfast" "-i" "Temp\44f243b4c20a1df48aad2713de0e126d-feed.png" "-o" "Temp\44f243b4c20a1df48aad2713de0e126d-res.pvr"
+QualitySettingRequest:OnProcess:End
+Waiting process...
+Process completed...
+CopyOutputRequest:OnCompleted:Start

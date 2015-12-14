@@ -7,6 +7,9 @@
 *.userosscache
 *.sln.docstates
 
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -16,17 +19,22 @@ x64/
 x86/
 build/
 bld/
-[Bb]in/
+[Bb]in/DLL/
+[Bb]in/Debug/
+[Bb]in/Cache/
+[Bb]in/Temp/
 [Oo]bj/
 
-# Roslyn cache directories
-*.ide/
+# Visual Studio 2015 cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-#NUNIT
+# NUNIT
 *.VisualState.xml
 TestResult.xml
 
@@ -34,6 +42,10 @@ TestResult.xml
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
+
+# DNX
+project.lock.json
+artifacts/
 
 *_i.c
 *_p.c
@@ -75,6 +87,7 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+*.sap
 
 # TFS 2012 Local Workspace
 $tf/
@@ -87,7 +100,7 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-# JustCode is a .NET coding addin-in
+# JustCode is a .NET coding add-in
 .JustCode
 
 # TeamCity is a build add-in
@@ -99,6 +112,7 @@ _TeamCity*
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
+nCrunchTemp_*
 
 # MightyMoose
 *.mm.*
@@ -137,7 +151,7 @@ publish/
 **/packages/*
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
-# If using the old MSBuild-Integrated Package Restore, uncomment this:
+# Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
 
 # Windows Azure Build Output
@@ -147,9 +161,13 @@ csx/
 # Windows Store app package directory
 AppPackages/
 
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!*.[Cc]ache/
+
 # Others
-sql/
-*.Cache
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
@@ -159,6 +177,7 @@ ClientBin/
 *.pfx
 *.publishsettings
 node_modules/
+orleans.codegen.cs
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -183,49 +202,19 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
-# =========================
-# Operating System Files
-# =========================
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
 
-# OSX
-# =========================
+# Visual Studio 6 build log
+*.plg
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# Visual Studio 6 workspace options file
+*.opt
 
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows
-# =========================
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
+# Visual Studio LightSwitch build output
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions

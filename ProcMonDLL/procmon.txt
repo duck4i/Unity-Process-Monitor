@@ -1,0 +1,22 @@
+
+06-09-2015 08:54:17 File write: ./procmon.txt
+06-09-2015 08:54:17 Test process cmd.exe
+CPA,Time,06-09-2015 08:54:17,AppName,cmd.exe,CommandLine,-c systeminfo,CurrentDir,NULL
+06-09-2015 08:54:17 Test process cmd.exe
+06-09-2015 08:54:17 Test process cmd.exe
+
+06-09-2015 08:55:39 File write: ./procmon.txt
+
+06-09-2015 08:56:12 File write: ./procmon.txt
+
+06-09-2015 08:56:27 File write: ./procmon.txt
+
+06-09-2015 08:57:14 File write: ./procmon.txt
+
+06-09-2015 08:57:42 File write: ./procmon.txt
+
+06-09-2015 09:09:39 File write: ./procmon.txt
+06-09-2015 09:09:39 Test process cmd.exe
+CPA,Time,06-09-2015 09:09:45,AppName,000000013F7EC290,CommandLine,000000013F7EC2A0,CurrentDir,000000013F7EC2C0
+06-09-2015 09:09:45 Test process cmd.exe
+06-09-2015 09:09:45 Test process cmd.exe

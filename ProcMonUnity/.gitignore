@@ -1,0 +1,67 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+*.prefs
+*.dwlt
+*.asset
+Library/
+Build/
+Cache/
+Assets/Editor/
+Assets/Standard Assets/
+obj/
+Temp/
+Build/
+*.mdb
+*.suo
+TriviaCompiler/TriviaCompiler/obj/
+TriviaCompiler/bin/*.exe
+TriviaCompiler/bin/*.config
+TriviaCompiler/bin/*.pdb
+TriviaCompiler/bin/game_*.xml
+TriviaCompiler/bin/*.rar
+TriviaCompiler/bin/*.zip
+*.pdb
+*.TMP
+TriviaGame-csharp.v12.suo
+TriviaGame-csharp.v12.suo
+TriviaGame-csharp.v12.suo
+TriviaGame-csharp.v12.suo
+TriviaGame-csharp.v12.suo
+TriviaCompiler/TriviaCompiler/bin/Release/TriviaCompiler.exe.config
+TriviaCompiler/bin/games_excluded_genres.xml
+TriviaGame-csharp.v12.suo
+*.pak
